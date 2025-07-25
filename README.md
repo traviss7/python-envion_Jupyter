@@ -17,3 +17,20 @@
   ```bash
   python -m venv .venv
   source .venv/Scripts/activate  # (Windows)
+
+# 🧠 LangChain LLM 테스트 예제
+
+이 저장소는 OpenAI의 GPT-4 모델을 LangChain으로 호출해 간단한 질문에 답하는 테스트 코드입니다.
+
+## 📁 파일 구성
+
+- `test_llm.py`  
+  OpenAI GPT-4 모델에 프롬프트를 보내고 응답을 출력하는 메인 실행 파일
+
+## ⚙️ 사전 준비
+
+1. Python 3.10 이상 설치
+2. 필수 패키지 설치:
+
+```bash
+pip install langchain langchain-community openai
